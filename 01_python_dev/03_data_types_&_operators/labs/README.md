@@ -1,3 +1,5 @@
+# There are many ways to deal with this as long as they details are being captured it is not a problem.
+
 ```python
 print("Hi, what is your name?")
 name = input() # String
@@ -29,4 +31,3 @@ print(addr_first_line)
 print(addr_second_line)
 print(postcode)
 ```
-# There are many ways to deal with this as long as they details are being captured it is not a problem.
