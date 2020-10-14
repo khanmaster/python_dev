@@ -69,4 +69,4 @@ The idea of test-driven development (TDD) was first brought to a wider audience 
  * **Green** - Now begin to write your code/object to make the test pass
  * **Refactor** - now you have a layer of confidence in that your class/object does what it is meant to do you can begin to look into refactoring (improving) your code and if the test passes the functionality will still work.
 
-![TDD](../assets/TDD.png)
+![TDD](../assets/test-driven-development-TDD.png)
