@@ -78,19 +78,19 @@
 #
 # print(open_and_print_file("order.text"))
 
-def open_using_with_and_print(file):
-    try:
-        with open(file, "r") as file:
-            for line in file.readlines():
-                print(line.rstrip('\n'))
-    except FileNotFoundError:
-        print("file cannot be found or directory is incorrect, please check the details provided")
-        raise
-    finally:
-        return "\nExecution complete"
-
-
-print(open_using_with_and_print("order.text"))
+# def open_using_with_and_print(file):
+#     try:
+#         with open(file, "r") as file:
+#             for line in file.readlines():
+#                 print(line.rstrip('\n'))
+#     except FileNotFoundError:
+#         print("file cannot be found or directory is incorrect, please check the details provided")
+#         raise
+#     finally:
+#         return "\nExecution complete"
+#
+#
+# print(open_using_with_and_print("order.text"))
 
 # task- research how  to write to this file to add more items
 # read from the file
@@ -103,6 +103,19 @@ def write_to_file(file, order_item):
         print("file cannot be found or directory is incorrect, please check the details provided")
         raise
     finally:
-        return "item added"
+        return order_item + " is added"
 print(write_to_file("order.text", "biryani"))
-print(open_using_with_and_print("order.text"))
+
+#print(open_using_with_and_print("order.text"))
+
+# Summary
+# You just:
+#
+# working with files
+# understand errors and exceptions
+# handling errors and exceptions
+# using try and except blocks
+# opening files and accessing data using readlines
+# using with as best practice
+# using finally as a clean up function
+# writing to files
