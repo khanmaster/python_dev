@@ -38,6 +38,8 @@ with open("json_file.json") as jsonfile:
      print(car['engine'])
      # getting value of engine
 
-JSON encoding from a dictionary
-Encoding and writing a json file
-Decoding JSON into a dictionary
+
+# Summary
+# JSON encoding from a dictionary
+# Encoding and writing a json file
+# Decoding JSON into a dictionary
