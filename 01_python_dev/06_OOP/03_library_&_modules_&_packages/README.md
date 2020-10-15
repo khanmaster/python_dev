@@ -78,17 +78,32 @@ Let's create a file called `os_module.py`:
 
 ```python
 import os
+import math, datetime, sys
  
 working_directory = os.getcwd()
- 
  
 def return_user_id():
      print(os.getuid())
  
 def operating_system_information():
-    print(os.uname())
+    print(os.cpu_count())
 
-```  
+print(datetime.date.today())
+```
+- gives us today's date
+```python
+print((sys.path))
+```
+- gives us the current path
+```
+print(math.remainder(1, 5))
+```
+```
+print(return_user_id())
+
+print(operating_system_information())
+```
+- Total CPU available in the system
 
 So, we have created a simple variable that:
 
